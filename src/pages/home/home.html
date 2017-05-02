@@ -15,4 +15,13 @@
     </ion-fab-list>
   </ion-fab>
 
+  <ion-list>
+    <ion-item>
+      <ion-range min="0" max="100" pin="true" [(ngModel)]="speed" color="secondary">
+        <ion-icon range-left small name="speedometer"></ion-icon>
+        <ion-icon range-right      name="speedometer"></ion-icon>
+      </ion-range>
+    </ion-item>
+  </ion-list>
+
 </ion-content>
