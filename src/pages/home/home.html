@@ -1,0 +1,18 @@
+<ion-content padding>
+   <ion-fab center middle>
+    <button ion-fab color="danger"><ion-icon name="game-controller-b"></ion-icon></button>
+    <ion-fab-list side="top">
+      <button ion-fab color="secondary" (touchstart)="topstart()" (touchend)="topend()"><ion-icon name="arrow-round-up"></ion-icon></button>
+    </ion-fab-list>
+    <ion-fab-list side="bottom">
+      <button ion-fab color="primary"   (touchstart)="bottomstart()" (touchend)="bottomend()"><ion-icon name="arrow-round-down"></ion-icon></button>
+    </ion-fab-list>
+    <ion-fab-list side="left">
+      <button ion-fab color="light"     (touchstart)="leftstart()" (touchend)="leftend()"><ion-icon name="arrow-round-back"></ion-icon></button>
+    </ion-fab-list>
+    <ion-fab-list side="right">
+      <button ion-fab color="light"     (touchstart)="rightstart()" (touchend)="rightend()"><ion-icon name="arrow-round-forward"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+
+</ion-content>
